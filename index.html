@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Grocery Saver</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+
+<header class="header">
+  <div class="logo">
+    🛒
+    <div>
+      <h1>Grocery Saver</h1>
+      <p>Compare real supermarket prices</p>
+    </div>
+  </div>
+
+  <div class="header-actions">
+    <button class="btn primary">Try it free →</button>
+    <button class="btn outline">Give Feedback</button>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+
+    <div>
+      <p class="tag">💰 Live grocery price comparison</p>
+
+      <h2>
+        Stop overpaying. <span>Compare instantly</span>.
+      </h2>
+
+      <p class="subtitle">
+        Select a product below to see real supermarket prices.
+      </p>
+
+      <div class="selector">
+        <p class="selector-title">Choose a product</p>
+        <div id="productCards" class="product-grid"></div>
+      </div>
+    </div>
+
+    <!-- PRICE CARD -->
+    <div class="card dark">
+      <h3 id="productName">Loading...</h3>
+      <p class="small">Prices from major Australian supermarkets</p>
+
+      <div id="prices"></div>
+
+      <div id="bestDeal" class="best"></div>
+    </div>
+
+  </section>
+
+
+  <!-- BENEFITS -->
+  <section class="grid" id="benefits"></section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <h2>What users say</h2>
+
+    <div class="testimonial-grid">
+      <div class="testimonial">
+        “I didn’t realise how much I was overpaying until I used Grocery Saver. Saved me heaps each week.”
+        <span>- Mia, student</span>
+      </div>
+
+      <div class="testimonial">
+        “Super easy to compare prices before I shop. It actually changes where I buy groceries.”
+        <span>- Jordan, mother of two</span>
+      </div>
+
+      <div class="testimonial">
+        “The best deal highlight makes it so quick to decide.”
+        <span>- Alex, part-time worker</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <h2>Refer your friends for 14 days free of Grocery Saver Premium</h2>
+
+    <p>
+      We encourage users to refer their friends to the service, by giving a free trial of our premium plan.
+    </p>
+
+    <div class="cta-buttons">
+      <button class="btn primary">Refer Friends</button>
+      <button class="btn outline">Give Feedback</button>
+    </div>
+  </section>
+
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
