@@ -220,10 +220,12 @@ h2 span { color: #16a34a; }
 }
 
 .logo-img {
-  width: 42px;
-  height: 42px;
+  width: 42px !important;
+  height: 42px !important;
+  max-width: 42px !important;
+  max-height: 42px !important;
   object-fit: contain;
-  border-radius: 8px;
+  display: block;
 }
 
 .logo {
