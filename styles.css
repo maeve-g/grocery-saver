@@ -226,6 +226,7 @@ h2 span { color: #16a34a; }
   max-height: 42px !important;
   object-fit: contain;
   display: block;
+  flex-shrink: 0;
 }
 
 .logo {
